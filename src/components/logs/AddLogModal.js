@@ -13,6 +13,10 @@ const AddLogModal = () => {
     } else {
 
       console.log(message, tech, attention);
+      // Clear Filds
+      setMessage('');
+      setTech('');
+      setAttention(false);
     }
   };
 
