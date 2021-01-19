@@ -11,6 +11,7 @@ const Logs = ({ log: { logs, loading }, getLogs }) => {
   useEffect(() => {
     getLogs();
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   
@@ -34,7 +35,9 @@ const Logs = ({ log: { logs, loading }, getLogs }) => {
 };
 
 Logs.propTypes = {
+  // eslint-disable-next-line no-undef
   log: PropTypes.object.isRequired,
+  // eslint-disable-next-line no-undef
   getLogs: PropTypes.func.isRequired
 };
 

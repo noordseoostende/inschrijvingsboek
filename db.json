@@ -1,27 +1,5 @@
 {
-  "logs": [
-    {
-      "id": 1,
-      "message": "Tijdschrift geleid door een jongere generatie",
-      "attention": false,
-      "date": "17-01-2021",
-      "tech": "Hoche Kleber"
-    },
-    {
-      "id": 2,
-      "message": "Duidelijke verwijzing naar de reactionaire P1829",
-      "attention": true,
-      "date": "17-01-2021",
-      "tech": "Saint Simon"
-    },
-    {
-      "id": 3,
-      "message": "Voorstander van een praktische, strenge moraal",
-      "attention": false,
-      "date": "17-01-2021",
-      "tech": "John DeNerval"
-    }
-  ],
+  "logs": [],
   "techs": [
     {
       "id": 1,
