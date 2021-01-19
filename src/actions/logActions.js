@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { GET_LOGS, SET_LOADING, LOGS_ERROR, ADD_LOG, DELETE_LOG } from './types';
 
 // export const getLogs = () => {
