@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import TechSelectOptions from '../techs/TechSelectOptions';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { addLog } from '../../actions/logActions';
@@ -60,9 +61,7 @@ const AddLogModal = ({ addLog }) => {
               <option valie='' disabled>
                 Kies de Technicus
               </option>
-              <option value="Hoche Kleber">Hoche Kleber</option>
-              <option value="Saint Simon">Saint Simon</option>
-              <option value="John DeNerval">John DeNerval</option>
+              <TechSelectOptions />
             </select>
         </div>
 
