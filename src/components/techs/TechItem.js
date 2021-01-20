@@ -14,7 +14,7 @@ const TechItem = ({ tech: { id, firstName, lastName }, deleteTech }) => {
   
   <li className="collection-item">
     <div>
-      {tech.firstName} {tech.lastName}
+      {firstName} {lastName}
       <a 
         href="#!" 
         className="secondary-content" 

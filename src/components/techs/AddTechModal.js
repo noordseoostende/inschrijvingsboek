@@ -28,7 +28,6 @@ const AddTechModal = ({ addTech }) => {
 
   return (
   <div id='add-tech-modal' className="modal" >
-
     <div className="modal-content">
       <h4>Nieuwe schrijver</h4>
       <div className='row'>
@@ -64,7 +63,9 @@ const AddTechModal = ({ addTech }) => {
         href='#!'
         onClick={onSubmit}
         className='modal-close waves-effect yellow waves-light btn'
-        >Invoeren</a>
+        >
+          Invoeren
+          </a>
     </div>
   </div>
 
@@ -74,6 +75,6 @@ const AddTechModal = ({ addTech }) => {
 AddTechModal.propTypes = {
   addTech: PropTypes.func.isRequired,
 
-}
+};
 
 export default connect(null, { addTech })(AddTechModal);

@@ -8,10 +8,10 @@ import { getTechs } from '../../actions/techActions';
 const TechListModal = ({ getTechs, tech: { techs, loading } }) => {
   
 
-  // eslint-disable-next-line no-undef
+  
   useEffect(() => {
     getTechs();
-
+// eslint-disable-next-line
   }, []);
 
   

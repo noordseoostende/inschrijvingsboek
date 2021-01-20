@@ -20,6 +20,9 @@ const App = () => {
     M.AutoInit();
   });
 
+  store.set('foo', 'bar')
+console.log(store.get('foo') === 'bar');
+
   
   return (
     <Provider store={store}>
@@ -37,6 +40,6 @@ const App = () => {
     </Fragment>
     </Provider>
   );
-}
+};
 
 export default App;
